@@ -14,7 +14,7 @@ public class KafkaConsumerService {
             log.info("Consuming message from kafka, Message = {}",message);
             return "Consuming message = "+message;
         }catch (Exception exception){
-            log.error("Exception while consuming message {}", exception);
+            log.error("Exception while consuming message", exception);
             return "Exception while consuming message";
         }
     }
