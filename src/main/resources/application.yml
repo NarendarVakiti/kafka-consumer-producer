@@ -1,0 +1,4 @@
+kafka-config :
+  server-id : 127.0.0.1:9092
+  group-id : CONSUMER_GROUP_ID
+  topic-name : TEST-TOPIC
