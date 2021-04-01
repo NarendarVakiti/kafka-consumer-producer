@@ -18,6 +18,7 @@ export PATH="$PATH:/Users/nvakiti/kafka_2.12-2.6.0/bin"
 
 Start Kafka and Zoopkeeper using following command, Go to kafka downloaded folder and run below cmds
 > zookeeper-server-start config/zookeeper.properties
+> 
 > kafka-server-start config/server.properties
 
 First we have to start zookeeper server and then kafka
